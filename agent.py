@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-=======
-LLM_API_KEY=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
-LLM_API_BASE=https://openrouter.ai/api/v1
-LLM_MODEL=qwen/qwen3-coder:free
-
->>>>>>> f4c53a2 (Task 3: Add System Agent with query_api tool)
 import json
 import sys
 import os
@@ -154,8 +147,4 @@ def main():
     print(json.dumps(result, indent=2))
 
 if __name__ == "__main__":
-<<<<<<< HEAD
     main()
-=======
-    main()
->>>>>>> f4c53a2 (Task 3: Add System Agent with query_api tool)
